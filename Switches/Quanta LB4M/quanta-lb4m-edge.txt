@@ -1,0 +1,85 @@
+!Current Configuration:
+!
+!System Description "LB4M 48x1G 2x10G, 1.1.0.8, VxWorks 6.6"
+!System Software Version "1.1.0.8"
+!System Up Time          "39 days 23 hrs 20 mins 56 secs"
+!Cut-through mode is configured as disabled
+!Additional Packages     FASTPATH QOS
+!Current SNTP Synchronized Time: Not Synchronized
+!
+
+admin
+enable
+
+hostname mag-lansw-[[SWITCH_NUMBER]]
+enable password b00636c694cada57777992f8a177b73ac97995fda3d378f8cd7a3cef7cc5618710f95127c9580615046e9da4aa683d20eb6852aebb9cb3041695ca047a19a809 encrypted
+vlan database
+vlan 100,200
+exit
+network mgmt_vlan 200
+configure
+dos-control firstfrag
+dos-control icmpv4
+dos-control icmpfrag
+dos-control tcpport
+dos-control udpport
+dos-control sipdip
+dos-control smacdmac
+dos-control tcpfinurgpsh
+dos-control tcpflagseq
+dos-control tcpsyn
+dos-control tcpsynfin
+dos-control tcpfrag
+dos-control tcpoffset
+
+line console
+exit
+line telnet
+exit
+line ssh
+exit
+
+interface 0/49
+addport 3/1
+exit
+interface 0/50
+addport 3/1
+exit
+
+snmp-server sysname "mag-lansw-[[SWITCH_NUMBER]]"
+!
+macfilter E4:8D:8C:25:1D:64 100
+port-security
+
+interface 0/1-0/48
+macfilter addsrc E4:8D:8C:25:1D:64 100
+spanning-tree edgeport
+no spanning-tree port mode
+vlan pvid 100
+vlan participation exclude 1
+vlan participation include 100
+port-security
+port-security max-dynamic 5
+port-security max-static 5
+exit
+
+interface 0/49-0/50
+vlan participation exclude 1
+vlan participation include 100,200
+vlan tagging 100,200
+lacp actor admin key 42
+lacp actor port priority 1
+exit
+
+interface 3/1
+no port-channel static
+port-channel load-balance 1
+vlan participation exclude 1
+vlan participation include 100,200
+vlan tagging 100,200
+lacp admin key 42
+exit
+exit
+write m c
+relo 
+y

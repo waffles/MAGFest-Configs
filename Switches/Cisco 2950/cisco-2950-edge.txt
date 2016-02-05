@@ -1,0 +1,76 @@
+!
+version 12.1
+no service pad
+service timestamps debug uptime
+service timestamps log uptime
+no service password-encryption
+!
+hostname mag-lansw-[[SWITCH_NUMBER]]
+!
+enable password [[PASSWORD]]
+!
+ip subnet-zero
+!
+ip dhcp snooping
+ip ssh time-out 120
+ip ssh authentication-retries 3
+vtp mode transparent
+!
+spanning-tree mode pvst
+spanning-tree portfast bpduguard default
+no spanning-tree optimize bpdu transmission
+spanning-tree extend system-id
+!
+spanning-tree mst configuration
+ name maglan
+ revision 14
+!
+!
+! 
+!
+vlan 100
+ name lan
+!
+vlan 200
+ name mgmt
+!
+interface ra FastEthernet0/1 - 24
+ switchport access vlan 100
+ switchport mode access
+ switchport port-security
+ switchport port-security maximum 5
+ spanning-tree portfast
+
+ interface ra GigabitEthernet0/1 - 2
+ switchport mode trunk
+ ip dhcp snooping trust
+!
+interface Vlan1
+ no ip route-cache
+ shutdown
+!
+interface Vlan100
+ no ip address
+ no ip route-cache
+ shutdown
+!
+interface Vlan200
+ ip address 10.13.255.[[SWITCH_NUMBER]] 255.255.254.0
+ no ip route-cache
+!
+ip http server
+snmp-server community public RO
+snmp-server enable traps port-security
+snmp-server enable traps MAC-Notification
+!
+line con 0
+ password [[PASSWORD]]
+ login
+line vty 0 4
+ password [[PASSWORD]]
+ login
+line vty 5 15
+ login
+!
+!
+end

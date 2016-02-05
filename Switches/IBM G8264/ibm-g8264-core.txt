@@ -1,0 +1,46 @@
+version "7.9.15"
+switch-type "IBM Networking Operating System RackSwitch G8264"
+iscli-new
+!
+!
+no system bootp
+no system default-ip
+hostname "watson"
+!
+!
+enable password "e7cf957ec10a802aaea6f6b702ba23d85749a492271998a054fa227c82fc0c8a"
+!
+!
+spanning-tree loopguard
+!
+interface port 1 - 64
+	switchport mode trunk
+	switchport trunk allowed vlan 1,100,200
+	exit
+!
+vlan 100
+	name "VLAN 100"
+!
+vlan 200
+	name "VLAN 200"
+!
+spanning-tree mst configuration
+	name "maglan"
+	revision 14
+	exit
+!
+spanning-tree mode mst
+spanning-tree mst 0 priority 0
+!
+interface port 1 - 64
+	lacp mode active
+	lacp key 42
+	no lacp suspend-individual
+!
+interface ip 3
+	ip address 10.13.254.100 255.255.254.0
+	vlan 200
+	enable
+	exit
+!
+end

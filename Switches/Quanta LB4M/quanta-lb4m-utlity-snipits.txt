@@ -1,0 +1,30 @@
+! trunk
+interface 0/5
+no spanning-tree edgeport
+vlan participation include 100,200
+no vlan pvid
+vlan tagging 100,200
+no port-security 
+exit
+
+! wifi
+interface 0/47
+no spanning-tree edgeport
+vlan participation include 100,200
+vlan pvid 200
+vlan tagging 100
+no port-security 
+exit
+
+! undo
+interface 0/47
+macfilter addsrc E4:8D:8C:25:1D:64 100
+spanning-tree edgeport
+spanning-tree guard root
+ip dhcp snooping log-invalid
+vlan pvid 100
+vlan participation exclude 1, 200
+vlan participation include 100
+port-security
+port-security max-dynamic 5
+port-security max-static 5
