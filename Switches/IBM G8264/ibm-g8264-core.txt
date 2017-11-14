@@ -1,46 +1,104 @@
-version "7.9.15"
-switch-type "IBM Networking Operating System RackSwitch G8264"
+ Config Dump
+
+version "7.11.11"
+switch-type "IBM Networking Operating System RackSwitch G8264, Stack"
 iscli-new
 !
+stack backup 2
+stack switch-number 1 mac 08:17:f4:cf:f3:00
+stack switch-number 2 mac 6c:ae:8b:8a:42:00
 !
 no system bootp
-no system default-ip
 hostname "watson"
 !
 !
-enable password "e7cf957ec10a802aaea6f6b702ba23d85749a492271998a054fa227c82fc0c8a"
+enable password "25130ee900110aa836f6e7a2c3a1a95aff5ec997d58b6f263b7c65e59dd584e9"
 !
 !
-spanning-tree loopguard
+interface port 1:17-64
+        switchport mode trunk
+        switchport trunk allowed vlan 1,100,200
+        exit
 !
-interface port 1 - 64
-	switchport mode trunk
-	switchport trunk allowed vlan 1,100,200
-	exit
+interface port 2:17-2:64
+        switchport mode trunk
+        switchport trunk allowed vlan 1,100,200
+        exit
 !
 vlan 100
-	name "VLAN 100"
+        name "VLAN 100"
 !
 vlan 200
-	name "VLAN 200"
+        name "VLAN 200"
 !
-spanning-tree mst configuration
-	name "maglan"
-	revision 14
-	exit
 !
-spanning-tree mode mst
-spanning-tree mst 0 priority 0
+spanning-tree stp 1 bridge priority 0
+spanning-tree stp 1 vlan 1
+spanning-tree stp 1 vlan 100
+spanning-tree stp 1 vlan 200
 !
-interface port 1 - 64
-	lacp mode active
-	lacp key 42
-	no lacp suspend-individual
+no spanning-tree stp 2-127 enable
+spanning-tree stp 2-127 bridge priority 0
+!
+lacp system-priority 1
+lacp timeout short
+!
+interface port 1:17-1:28
+        lacp mode active
+        lacp key 42
+        no lacp suspend-individual
+!
+interface port 2:17-2:28
+        lacp mode active
+        lacp key 42
+        no lacp suspend-individual
+!
+interface port 1:29-1:40
+        lacp mode active
+        lacp key 43
+        no lacp suspend-individual
+!
+interface port 2:29-2:40
+        lacp mode active
+        lacp key 43
+        no lacp suspend-individual
+!
+interface port 1:41-1:52
+        lacp mode active
+        lacp key 44
+        no lacp suspend-individual
+!
+interface port 2:41-2:52
+        lacp mode active
+        lacp key 44
+        no lacp suspend-individual
+!
+interface port 1:53-1:64
+        lacp mode active
+        lacp key 45
+        no lacp suspend-individual
+!
+interface port 2:53-2:64
+        lacp mode active
+        lacp key 45
+        no lacp suspend-individual
 !
 interface ip 3
-	ip address 10.13.254.100 255.255.254.0
-	vlan 200
-	enable
-	exit
+        ip address 10.13.254.100 255.255.254.0
+        vlan 200
+        enable
+        exit
+!
+interface ip 128
+        mac 08:17:f4:cf:f3:00 ip address 10.13.254.100
+        mac 08:17:f4:cf:f3:00 ip netmask 255.255.254.0
+!
+        mac 6c:ae:8b:8a:42:00 ip address 10.13.254.200
+        mac 6c:ae:8b:8a:42:00 ip netmask 255.255.254.0
+!
+!
+ntp enable
+ntp primary-server time.apple.com MGT
+ntp secondary-server time.nist.gov MGT
 !
 end
