@@ -9,6 +9,7 @@
 !
 
 admin
+
 enable
 
 hostname mag-lansw-[[SWITCH_NUMBER]]
