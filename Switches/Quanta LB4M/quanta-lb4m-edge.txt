@@ -23,9 +23,6 @@ dos-control firstfrag
 dos-control icmpv4
 dos-control icmpfrag
 dos-control tcpport
-dos-control udpport
-dos-control sipdip
-dos-control smacdmac
 dos-control tcpfinurgpsh
 dos-control tcpflagseq
 dos-control tcpsyn
