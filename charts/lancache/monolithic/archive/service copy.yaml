@@ -1,0 +1,156 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: lancache-monolithic-service
+  namespace: lancache 
+spec:
+  type: ClusterIP
+  selector:
+    app: lancache-monolithic
+  ports:
+    - port: 80
+      targetPort: 80
+      name: http
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lancache-monolithic-service-https-0
+  annotations:
+    metallb.universe.tf/allow-shared-ip: ingress
+spec:
+  selector:
+    app: lancache-monolithic
+  ports:
+    - port: 443
+      targetPort: 443
+      name: https
+  loadBalancerIP: 10.13.8.110
+  externalTrafficPolicy: Local
+  type: LoadBalancer
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lancache-monolithic-service-https-1
+  annotations:
+    metallb.universe.tf/allow-shared-ip: ingress
+spec:
+  selector:
+    app: lancache-monolithic
+  ports:
+    - port: 443
+      targetPort: 443
+      name: https
+  loadBalancerIP: 10.13.8.111
+  externalTrafficPolicy: Local
+  type: LoadBalancer
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lancache-monolithic-service-https-2
+  annotations:
+    metallb.universe.tf/allow-shared-ip: ingress
+spec:
+  selector:
+    app: lancache-monolithic
+  ports:
+    - port: 443
+      targetPort: 443
+      name: https
+  loadBalancerIP: 10.13.8.112
+  externalTrafficPolicy: Local
+  type: LoadBalancer
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lancache-monolithic-service-https-3
+  annotations:
+    metallb.universe.tf/allow-shared-ip: ingress
+spec:
+  selector:
+    app: lancache-monolithic
+  ports:
+    - port: 443
+      targetPort: 443
+      name: https
+  loadBalancerIP: 10.13.8.113
+  externalTrafficPolicy: Local
+  type: LoadBalancer
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lancache-monolithic-service-https-4
+  annotations:
+    metallb.universe.tf/allow-shared-ip: ingress
+spec:
+  selector:
+    app: lancache-monolithic
+  ports:
+    - port: 443
+      targetPort: 443
+      name: https
+  loadBalancerIP: 10.13.8.114
+  externalTrafficPolicy: Local
+  type: LoadBalancer
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lancache-monolithic-service-https-5
+  annotations:
+    metallb.universe.tf/allow-shared-ip: ingress
+spec:
+  selector:
+    app: lancache-monolithic
+  ports:
+    - port: 443
+      targetPort: 443
+      name: https
+  loadBalancerIP: 10.13.8.115
+  externalTrafficPolicy: Local
+  type: LoadBalancer
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lancache-monolithic-service-https-6
+  annotations:
+    metallb.universe.tf/allow-shared-ip: ingress
+spec:
+  selector:
+    app: lancache-monolithic
+  ports:
+    - port: 443
+      targetPort: 443
+      name: https
+  loadBalancerIP: 10.13.8.116
+  externalTrafficPolicy: Local
+  type: LoadBalancer
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lancache-monolithic-service-https-7
+  annotations:
+    metallb.universe.tf/allow-shared-ip: ingress
+spec:
+  selector:
+    app: lancache-monolithic
+  ports:
+    - port: 443
+      targetPort: 443
+      name: https
+  loadBalancerIP: 10.13.8.117
+  externalTrafficPolicy: Local
+  type: LoadBalancer
+

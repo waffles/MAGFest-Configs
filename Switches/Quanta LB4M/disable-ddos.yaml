@@ -1,0 +1,25 @@
+- name: Network Getting Started First Playbook
+  gather_facts: false
+  hosts: quanta-edge
+  tasks:
+  - name: disable-ddos
+    telnet:
+      user: admin
+      password: [[password]]
+      login_prompt: "User:"
+      password_prompt: "Password:"
+      timeout: 10
+      pause: 5
+      prompts:
+        - "[>|#|:|) ]"
+      command:
+        - enable
+        - [[password]]
+        - conf
+        - no dos-control udpport
+        - no dos-control sipdip
+        - no dos-control smacdmac
+        - exit
+        - write m c 
+        - relo
+        - y

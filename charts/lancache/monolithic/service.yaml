@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: lancache-monolithic-service
+  namespace: lancache 
+spec:
+  type: ClusterIP
+  selector:
+    app: lancache-monolithic
+  ports:
+    - port: 80
+      targetPort: 80
+      name: http

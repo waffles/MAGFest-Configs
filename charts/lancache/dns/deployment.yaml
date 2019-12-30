@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lancache-dns-deployment
+  namespace: lancache
+  labels:
+    app: lancache-dns
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lancache-dns
+  template:
+    metadata:
+      labels:
+        app: lancache-dns
+    spec:
+      containers:
+      - name: lancache-dns
+        image: lancachenet/lancache-dns:latest
+        env:
+          - name: LANCACHE_IP
+            value: "10.13.8.110 10.13.8.111 10.13.8.112 10.13.8.113 10.13.8.114 10.13.8.115 10.13.8.116 10.13.8.117"
+          - name: UPSTREAM_DNS
+            value: 10.13.254.1
+          - name: USE_GENERIC_CACHE
+            value: "true"
+        ports:
+        - containerPort: 53
+          protocol: UDP
+        - containerPort: 53
+          protocol: TCP
+        resources:
+          requests:
+             cpu: 1000m
+        lifecycle:
+          preStop:
+            exec:
+              command: ["/bin/sleep", "10"]

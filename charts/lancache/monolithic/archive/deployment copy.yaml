@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lancache-monolithic-deployment
+  namespace: lancache
+  labels:
+    app: lancache-monolithic
+spec:
+  replicas: 10
+  selector:
+    matchLabels:
+      app: lancache-monolithic
+  template:
+    metadata:
+      labels:
+        app: lancache-monolithic
+    spec:
+      volumes:
+      - name: lancache-data
+        persistentVolumeClaim:
+          claimName: lancache-vol
+      containers:
+      - name: lancache-monolithic-cache
+        image: lancachenet/monolithic:latest
+        resources:
+          requests:
+            memory: "75Gi"
+        readinessProbe:
+          initialDelaySeconds: 5
+          tcpSocket:
+            port: 80
+        lifecycle:
+          preStop:
+            exec:
+              command: ["/bin/sleep", "10"]
+        ports:
+        - containerPort: 80
+        volumeMounts:
+          - mountPath: /data/cache
+            name: lancache-data
