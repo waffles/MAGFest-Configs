@@ -28,3 +28,17 @@ vlan participation include 100
 port-security
 port-security max-dynamic 5
 port-security max-static 5
+
+!disable ddos
+admin
+[[password]]
+enable
+[[password]]
+conf
+no dos-control udpport
+no dos-control sipdip
+no dos-control smacdmac
+exit
+write m c 
+relo
+y

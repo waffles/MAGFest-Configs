@@ -16,7 +16,9 @@ spec:
   loadBalancerIP: 10.13.8.8
   externalTrafficPolicy: Cluster
   type: LoadBalancer
+  
 ---
+
 apiVersion: v1
 kind: Service
 metadata:

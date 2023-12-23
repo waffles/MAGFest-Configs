@@ -20,7 +20,8 @@ spec:
         image: lancachenet/lancache-dns:latest
         env:
           - name: LANCACHE_IP
-            value: "10.13.8.110 10.13.8.111 10.13.8.112 10.13.8.113 10.13.8.114 10.13.8.115 10.13.8.116 10.13.8.117"
+            value: "10.13.8.5 10.13.8.2 10.13.8.3 10.13.8.4"
+            #"10.13.8.110 10.13.8.111 10.13.8.112 10.13.8.113 10.13.8.114 10.13.8.115 10.13.8.116 10.13.8.117"
           - name: UPSTREAM_DNS
             value: 10.13.254.1
           - name: USE_GENERIC_CACHE
@@ -31,8 +32,8 @@ spec:
         - containerPort: 53
           protocol: TCP
         resources:
-          requests:
-             cpu: 1000m
+          limits:
+             cpu: 5000m
         lifecycle:
           preStop:
             exec:
