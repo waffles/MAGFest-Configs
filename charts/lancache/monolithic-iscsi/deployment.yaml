@@ -1,0 +1,58 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: lancache-monolithic-deployment
+  namespace: lancache
+  labels:
+    app: lancache-monolithic
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lancache-monolithic
+  serviceName: lancache-monolithic
+  template:
+    metadata:
+      labels:
+        app: lancache-monolithic
+    spec:
+      volumes:
+      - name: lancache-data
+        iscsi:
+          targetPortal: 10.13.254.97:3260
+          iqn: iqn.2021-11.net.magfest.lan:lancache
+          lun: 1
+          fsType: ext4
+          readOnly: false
+      containers:
+      - name: lancache-monolithic-cache
+        image: lancachenet/monolithic:latest
+        env:
+          - name: CACHE_DISK_SIZE
+            value: "9950g"
+          - name: CACHE_MEM_SIZE
+            value: "2500m"
+          - name: UPSTREAM_DNS
+            value: 10.13.254.1
+          # - name: NGINX_WORKER_PROCESSES
+          #   value: "auto"
+        resources:
+          requests:
+            memory: "240Gi"
+            cpu: '39000m'
+        readinessProbe:
+          initialDelaySeconds: 5
+          tcpSocket:
+            port: 80
+        lifecycle:
+          preStop:
+            exec:
+              command: ["/bin/sleep", "10"]
+        ports:
+        - containerPort: 80
+          # hostPort: 80
+        - containerPort: 443
+          # hostPort: 443
+        volumeMounts:
+          - mountPath: /data/cache
+            name: lancache-data
