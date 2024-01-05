@@ -73,6 +73,11 @@ in
   boot.kernelParams = [ "ipv6.disable=1" ];
   boot.kernel.sysctl."net.ipv6.conf.all.disable_ipv6" = true;
 
+    # Enable BBR congestion control
+  boot.kernelModules = [ "tcp_bbr" ];
+  boot.kernel.sysctl."net.ipv4.tcp_congestion_control" = "bbr";
+  boot.kernel.sysctl."net.core.default_qdisc" = "fq"; # see https://news.ycombinator.com/item?id=14814530
+
   networking.search = 
   [
       "lan.magfest.net"
