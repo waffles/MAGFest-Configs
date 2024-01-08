@@ -1,0 +1,1677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.3</Version>
+  <Author>waffles</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0">
+    <Output Plugin="uDMX" Line="0">
+     <PluginParameters UniverseChannels="132"/>
+    </Output>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Stage Right</Manufacturer>
+   <Model>PAR StageLight 12Wx7 LED</Model>
+   <Mode>11-Channel</Mode>
+   <ID>0</ID>
+   <Name>PAR StageLight 12Wx7 LED #01</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stage Right</Manufacturer>
+   <Model>PAR StageLight 12Wx7 LED</Model>
+   <Mode>11-Channel</Mode>
+   <ID>1</ID>
+   <Name>PAR StageLight 12Wx7 LED #02</Name>
+   <Universe>0</Universe>
+   <Address>11</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stage Right</Manufacturer>
+   <Model>PAR StageLight 12Wx7 LED</Model>
+   <Mode>11-Channel</Mode>
+   <ID>2</ID>
+   <Name>PAR StageLight 12Wx7 LED #03</Name>
+   <Universe>0</Universe>
+   <Address>22</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stage Right</Manufacturer>
+   <Model>PAR StageLight 12Wx7 LED</Model>
+   <Mode>11-Channel</Mode>
+   <ID>3</ID>
+   <Name>PAR StageLight 12Wx7 LED #04</Name>
+   <Universe>0</Universe>
+   <Address>33</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stage Right</Manufacturer>
+   <Model>PAR StageLight 12Wx7 LED</Model>
+   <Mode>11-Channel</Mode>
+   <ID>4</ID>
+   <Name>PAR StageLight 12Wx7 LED #05</Name>
+   <Universe>0</Universe>
+   <Address>44</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stage Right</Manufacturer>
+   <Model>PAR StageLight 12Wx7 LED</Model>
+   <Mode>11-Channel</Mode>
+   <ID>5</ID>
+   <Name>PAR StageLight 12Wx7 LED #06</Name>
+   <Universe>0</Universe>
+   <Address>55</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stage Right</Manufacturer>
+   <Model>PAR StageLight 12Wx7 LED</Model>
+   <Mode>11-Channel</Mode>
+   <ID>6</ID>
+   <Name>PAR StageLight 12Wx7 LED #07</Name>
+   <Universe>0</Universe>
+   <Address>66</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stage Right</Manufacturer>
+   <Model>PAR StageLight 12Wx7 LED</Model>
+   <Mode>11-Channel</Mode>
+   <ID>7</ID>
+   <Name>PAR StageLight 12Wx7 LED #08</Name>
+   <Universe>0</Universe>
+   <Address>77</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stage Right</Manufacturer>
+   <Model>PAR StageLight 12Wx7 LED</Model>
+   <Mode>11-Channel</Mode>
+   <ID>8</ID>
+   <Name>PAR StageLight 12Wx7 LED #09</Name>
+   <Universe>0</Universe>
+   <Address>88</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stage Right</Manufacturer>
+   <Model>PAR StageLight 12Wx7 LED</Model>
+   <Mode>11-Channel</Mode>
+   <ID>9</ID>
+   <Name>PAR StageLight 12Wx7 LED #10</Name>
+   <Universe>0</Universe>
+   <Address>99</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stage Right</Manufacturer>
+   <Model>PAR StageLight 12Wx7 LED</Model>
+   <Mode>11-Channel</Mode>
+   <ID>10</ID>
+   <Name>PAR StageLight 12Wx7 LED #11</Name>
+   <Universe>0</Universe>
+   <Address>110</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stage Right</Manufacturer>
+   <Model>PAR StageLight 12Wx7 LED</Model>
+   <Mode>11-Channel</Mode>
+   <ID>11</ID>
+   <Name>PAR StageLight 12Wx7 LED #12</Name>
+   <Universe>0</Universe>
+   <Address>121</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <FixtureGroup ID="1">
+   <Name>PAR StageLight 12Wx7 LED - RGB Group</Name>
+   <Size X="12" Y="1"/>
+   <Head X="0" Y="0" Fixture="0">0</Head>
+   <Head X="1" Y="0" Fixture="1">0</Head>
+   <Head X="2" Y="0" Fixture="2">0</Head>
+   <Head X="3" Y="0" Fixture="3">0</Head>
+   <Head X="4" Y="0" Fixture="4">0</Head>
+   <Head X="5" Y="0" Fixture="5">0</Head>
+   <Head X="6" Y="0" Fixture="6">0</Head>
+   <Head X="7" Y="0" Fixture="7">0</Head>
+   <Head X="8" Y="0" Fixture="8">0</Head>
+   <Head X="9" Y="0" Fixture="9">0</Head>
+   <Head X="10" Y="0" Fixture="10">0</Head>
+   <Head X="11" Y="0" Fixture="11">0</Head>
+  </FixtureGroup>
+  <ChannelsGroup ID="0" Name="node dim" Value="0">0,10,1,10,2,10,3,10,4,10,5,10,6,10,7,10,8,10,9,10,10,10,11,10</ChannelsGroup>
+  <ChannelsGroup ID="1" Name="speed" Value="0">0,9,1,9,2,9,3,9,4,9,5,9,6,9,7,9,8,9,9,9,10,9,11,9</ChannelsGroup>
+  <ChannelsGroup ID="2" Name="strobe" Value="0">0,7,1,7,2,7,3,7,4,7,5,7,6,7,7,7,8,7,9,7,10,7,11,7</ChannelsGroup>
+  <ChannelsGroup ID="3" Name="master dim" Value="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0</ChannelsGroup>
+  <Function ID="152" Type="RGBMatrix" Name="Animation Balls - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Balls</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="153" Type="RGBMatrix" Name="Animation Balls (Colors) - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Balls (Colors)</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="154" Type="RGBMatrix" Name="Animation Circles - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Circles</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="155" Type="RGBMatrix" Name="Animation Even/Odd - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Even/Odd</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="156" Type="RGBMatrix" Name="Animation Fill - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="157" Type="RGBMatrix" Name="Animation Fill From Center - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill From Center</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="158" Type="RGBMatrix" Name="Animation Fill Unfill - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="159" Type="RGBMatrix" Name="Animation Fill Unfill From Center - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill From Center</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="160" Type="RGBMatrix" Name="Animation Fill Unfill Squares From Center - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Squares From Center</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="161" Type="RGBMatrix" Name="Animation Gradient - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Gradient</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="162" Type="RGBMatrix" Name="Animation Noise - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Noise</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="163" Type="RGBMatrix" Name="Animation One By One - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">One By One</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="164" Type="RGBMatrix" Name="Animation Opposite - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Opposite</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="165" Type="RGBMatrix" Name="Animation Plasma - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Plasma</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+   <Property Name="presetSize" Value="5"/>
+   <Property Name="stepsize" Value="25"/>
+   <Property Name="ramp" Value="20"/>
+  </Function>
+  <Function ID="166" Type="RGBMatrix" Name="Animation Plasma (Colors) - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Plasma (Colors)</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+   <Property Name="color4Index" Value="Blue"/>
+   <Property Name="presetSize" Value="5"/>
+   <Property Name="color3Index" Value="Green"/>
+   <Property Name="stepsize" Value="25"/>
+   <Property Name="color2Index" Value="Red"/>
+   <Property Name="color5Index" Value="OFF"/>
+   <Property Name="ramp" Value="15"/>
+  </Function>
+  <Function ID="167" Type="RGBMatrix" Name="Animation Random Column - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Column</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="168" Type="RGBMatrix" Name="Animation Random Fill Column - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Fill Column</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="169" Type="RGBMatrix" Name="Animation Random Fill Row - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Fill Row</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="170" Type="RGBMatrix" Name="Animation Random Fill Single - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Fill Single</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="171" Type="RGBMatrix" Name="Animation Random Pixel Per Row - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Pixel Per Row</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="172" Type="RGBMatrix" Name="Animation Random Pixel Per Row Multicolor - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Pixel Per Row Multicolor</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="173" Type="RGBMatrix" Name="Animation Random Row - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Row</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="174" Type="RGBMatrix" Name="Animation Random Single - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Single</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="175" Type="RGBMatrix" Name="Animation Squares - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Squares</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="176" Type="RGBMatrix" Name="Animation Squares From Center - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Squares From Center</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="177" Type="RGBMatrix" Name="Animation 3D Starfield - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">3D Starfield</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+   <Property Name="StarsAmount" Value="50"/>
+  </Function>
+  <Function ID="178" Type="RGBMatrix" Name="Animation Stripes - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Stripes</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="179" Type="RGBMatrix" Name="Animation Stripes From Center - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Stripes From Center</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="180" Type="RGBMatrix" Name="Animation Strobe - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Strobe</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="181" Type="RGBMatrix" Name="Animation Vertical fall - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Vertical fall</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="182" Type="RGBMatrix" Name="Animation Waves - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Waves</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="183" Type="RGBMatrix" Name="New RGB Matrix 183">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Gradient</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+   <Property Name="presetSize" Value="12"/>
+   <Property Name="orientation" Value="Horizontal"/>
+   <Property Name="presetIndex" Value="Rainbow"/>
+  </Function>
+  <Function ID="184" Type="Scene" Name="Red scene - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255</FixtureVal>
+   <FixtureVal ID="1">1,255</FixtureVal>
+   <FixtureVal ID="2">1,255</FixtureVal>
+   <FixtureVal ID="3">1,255</FixtureVal>
+   <FixtureVal ID="4">1,255</FixtureVal>
+   <FixtureVal ID="5">1,255</FixtureVal>
+   <FixtureVal ID="6">1,255</FixtureVal>
+   <FixtureVal ID="7">1,255</FixtureVal>
+   <FixtureVal ID="8">1,255</FixtureVal>
+   <FixtureVal ID="9">1,255</FixtureVal>
+   <FixtureVal ID="10">1,255</FixtureVal>
+   <FixtureVal ID="11">1,255</FixtureVal>
+  </Function>
+  <Function ID="185" Type="Scene" Name="Green scene - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,255</FixtureVal>
+   <FixtureVal ID="1">2,255</FixtureVal>
+   <FixtureVal ID="2">2,255</FixtureVal>
+   <FixtureVal ID="3">2,255</FixtureVal>
+   <FixtureVal ID="4">2,255</FixtureVal>
+   <FixtureVal ID="5">2,255</FixtureVal>
+   <FixtureVal ID="6">2,255</FixtureVal>
+   <FixtureVal ID="7">2,255</FixtureVal>
+   <FixtureVal ID="8">2,255</FixtureVal>
+   <FixtureVal ID="9">2,255</FixtureVal>
+   <FixtureVal ID="10">2,255</FixtureVal>
+   <FixtureVal ID="11">2,255</FixtureVal>
+  </Function>
+  <Function ID="186" Type="Scene" Name="Blue scene - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">3,255</FixtureVal>
+   <FixtureVal ID="1">3,255</FixtureVal>
+   <FixtureVal ID="2">3,255</FixtureVal>
+   <FixtureVal ID="3">3,255</FixtureVal>
+   <FixtureVal ID="4">3,255</FixtureVal>
+   <FixtureVal ID="5">3,255</FixtureVal>
+   <FixtureVal ID="6">3,255</FixtureVal>
+   <FixtureVal ID="7">3,255</FixtureVal>
+   <FixtureVal ID="8">3,255</FixtureVal>
+   <FixtureVal ID="9">3,255</FixtureVal>
+   <FixtureVal ID="10">3,255</FixtureVal>
+   <FixtureVal ID="11">3,255</FixtureVal>
+  </Function>
+  <Function ID="187" Type="Scene" Name="White scene - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,255</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,255</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,0,4,0,5,255</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,0,4,0,5,255</FixtureVal>
+   <FixtureVal ID="6">0,255,1,0,2,0,3,0,4,0,5,255</FixtureVal>
+   <FixtureVal ID="7">0,255,1,0,2,0,3,0,4,0,5,255</FixtureVal>
+   <FixtureVal ID="8">0,255,1,0,2,0,3,0,4,0,5,255</FixtureVal>
+   <FixtureVal ID="9">0,255,1,0,2,0,3,0,4,0,5,255</FixtureVal>
+   <FixtureVal ID="10">0,255,1,0,2,0,3,0,4,0,5,255</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,0,3,0,4,0,5,255</FixtureVal>
+  </Function>
+  <Function ID="188" Type="Chaser" Name="Primary colours chaser - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">184</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">185</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">186</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">187</Step>
+  </Function>
+  <Function ID="189" Type="Scene" Name="Scene Black - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="1">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="2">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="3">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="4">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="5">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="6">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="7">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="8">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="10">1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="11">1,0,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="190" Type="Scene" Name="Scene Dark Blue - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="1">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="2">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="3">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="4">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="5">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="6">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="7">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="8">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="10">1,0,2,0,3,128</FixtureVal>
+   <FixtureVal ID="11">1,0,2,0,3,128</FixtureVal>
+  </Function>
+  <Function ID="191" Type="Scene" Name="Scene Blue - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="1">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="2">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="3">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="4">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="5">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="6">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="7">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="8">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="10">1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="11">1,0,2,0,3,255</FixtureVal>
+  </Function>
+  <Function ID="192" Type="Scene" Name="Scene Dark Green - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="1">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="2">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="3">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="4">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="5">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="6">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="7">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="8">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="10">1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="11">1,0,2,128,3,0</FixtureVal>
+  </Function>
+  <Function ID="193" Type="Scene" Name="Scene Dark Cyan - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="1">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="2">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="3">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="4">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="5">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="6">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="7">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="8">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="9">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="10">1,0,2,128,3,128</FixtureVal>
+   <FixtureVal ID="11">1,0,2,128,3,128</FixtureVal>
+  </Function>
+  <Function ID="194" Type="Scene" Name="Scene Green - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="1">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="2">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="3">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="4">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="5">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="6">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="7">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="8">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="10">1,0,2,255,3,0</FixtureVal>
+   <FixtureVal ID="11">1,0,2,255,3,0</FixtureVal>
+  </Function>
+  <Function ID="195" Type="Scene" Name="Scene Cyan - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="1">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="2">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="3">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="4">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="5">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="6">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="7">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="8">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="9">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="10">1,0,2,255,3,255</FixtureVal>
+   <FixtureVal ID="11">1,0,2,255,3,255</FixtureVal>
+  </Function>
+  <Function ID="196" Type="Scene" Name="Scene Dark Red - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="1">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="2">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="3">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="4">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="5">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="6">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="7">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="8">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="9">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="10">1,128,2,0,3,0</FixtureVal>
+   <FixtureVal ID="11">1,128,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="197" Type="Scene" Name="Scene Dark Magenta - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="1">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="2">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="3">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="4">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="5">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="6">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="7">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="8">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="9">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="10">1,128,2,0,3,128</FixtureVal>
+   <FixtureVal ID="11">1,128,2,0,3,128</FixtureVal>
+  </Function>
+  <Function ID="198" Type="Scene" Name="Scene Dark Yellow - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="1">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="2">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="3">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="4">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="5">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="6">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="7">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="8">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="9">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="10">1,128,2,128,3,0</FixtureVal>
+   <FixtureVal ID="11">1,128,2,128,3,0</FixtureVal>
+  </Function>
+  <Function ID="199" Type="Scene" Name="Scene Dark Gray - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="1">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="2">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="3">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="4">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="5">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="6">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="7">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="8">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="9">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="10">1,128,2,128,3,128</FixtureVal>
+   <FixtureVal ID="11">1,128,2,128,3,128</FixtureVal>
+  </Function>
+  <Function ID="200" Type="Scene" Name="Scene Light Gray - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="1">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="2">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="3">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="4">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="5">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="6">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="7">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="8">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="9">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="10">1,192,2,192,3,192</FixtureVal>
+   <FixtureVal ID="11">1,192,2,192,3,192</FixtureVal>
+  </Function>
+  <Function ID="201" Type="Scene" Name="Scene Red - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="1">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="2">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="3">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="4">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="5">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="6">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="7">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="8">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="9">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="10">1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="11">1,255,2,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="202" Type="Scene" Name="Scene Magenta - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="1">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="2">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="3">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="4">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="5">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="6">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="7">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="8">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="9">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="10">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="11">1,255,2,0,3,255</FixtureVal>
+  </Function>
+  <Function ID="203" Type="Scene" Name="Scene Yellow - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="1">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="2">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="3">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="4">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="5">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="6">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="7">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="8">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="9">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="10">1,255,2,255,3,0</FixtureVal>
+   <FixtureVal ID="11">1,255,2,255,3,0</FixtureVal>
+  </Function>
+  <Function ID="204" Type="Scene" Name="Scene White - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="1">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="2">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="3">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="4">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="5">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="6">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="7">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="8">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="9">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="10">1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="11">1,255,2,255,3,255</FixtureVal>
+  </Function>
+  <Function ID="205" Type="Chaser" Name="16 Colours chaser - PAR StageLight 12Wx7 LED">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">189</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">190</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">191</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">192</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">193</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">194</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">195</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">196</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">197</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">198</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">199</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">200</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">201</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">202</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">203</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">204</Step>
+  </Function>
+  <Monitor DisplayMode="1" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <SoloFrame Caption="Animations - PAR StageLight 12Wx7 LED" ID="129">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="10" Y="10" Width="250" Height="520"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Animation Balls" ID="130" Icon="">
+     <WindowState Visible="False" X="10" Y="40" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="152"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Balls (Colors)" ID="131" Icon="">
+     <WindowState Visible="False" X="70" Y="40" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="153"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Circles" ID="132" Icon="">
+     <WindowState Visible="False" X="130" Y="40" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="154"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Even/Odd" ID="133" Icon="">
+     <WindowState Visible="False" X="190" Y="40" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="155"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Fill" ID="134" Icon="">
+     <WindowState Visible="False" X="10" Y="100" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="156"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Fill From Center" ID="135" Icon="">
+     <WindowState Visible="False" X="70" Y="100" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="157"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Fill Unfill" ID="136" Icon="">
+     <WindowState Visible="False" X="130" Y="100" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="158"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Fill Unfill From Center" ID="137" Icon="">
+     <WindowState Visible="False" X="190" Y="100" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="159"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Fill Unfill Squares From Center" ID="138" Icon="">
+     <WindowState Visible="False" X="10" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="160"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Gradient" ID="139" Icon="">
+     <WindowState Visible="False" X="70" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="161"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Noise" ID="140" Icon="">
+     <WindowState Visible="False" X="130" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="162"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation One By One" ID="141" Icon="">
+     <WindowState Visible="False" X="190" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="163"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Opposite" ID="142" Icon="">
+     <WindowState Visible="False" X="10" Y="220" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="164"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Plasma" ID="143" Icon="">
+     <WindowState Visible="False" X="70" Y="220" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="165"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Plasma (Colors)" ID="144" Icon="">
+     <WindowState Visible="False" X="130" Y="220" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="166"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Random Column" ID="145" Icon="">
+     <WindowState Visible="False" X="190" Y="220" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="167"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Random Fill Column" ID="146" Icon="">
+     <WindowState Visible="False" X="10" Y="280" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="168"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Random Fill Row" ID="147" Icon="">
+     <WindowState Visible="False" X="70" Y="280" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="169"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Random Fill Single" ID="148" Icon="">
+     <WindowState Visible="False" X="130" Y="280" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="170"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Random Pixel Per Row" ID="149" Icon="">
+     <WindowState Visible="False" X="190" Y="280" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="171"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Random Pixel Per Row Multicolor" ID="150" Icon="">
+     <WindowState Visible="False" X="10" Y="340" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="172"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Random Row" ID="151" Icon="">
+     <WindowState Visible="False" X="70" Y="340" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="173"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Random Single" ID="152" Icon="">
+     <WindowState Visible="False" X="130" Y="340" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="174"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Squares" ID="153" Icon="">
+     <WindowState Visible="False" X="190" Y="340" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="175"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Squares From Center" ID="154" Icon="">
+     <WindowState Visible="False" X="10" Y="400" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="176"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation 3D Starfield" ID="155" Icon="">
+     <WindowState Visible="False" X="70" Y="400" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="177"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Stripes" ID="156" Icon="">
+     <WindowState Visible="False" X="130" Y="400" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="178"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Stripes From Center" ID="157" Icon="">
+     <WindowState Visible="False" X="190" Y="400" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="179"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Strobe" ID="158" Icon="">
+     <WindowState Visible="False" X="10" Y="460" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="180"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Vertical fall" ID="159" Icon="">
+     <WindowState Visible="False" X="70" Y="460" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="181"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Animation Waves" ID="160" Icon="">
+     <WindowState Visible="False" X="130" Y="460" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="182"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <Frame Caption="Primary colours - PAR StageLight 12Wx7 LED" ID="161">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="10" Y="10" Width="650" Height="270"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <SoloFrame Caption="Presets solo frame" ID="162">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="False" X="10" Y="40" Width="250" Height="100"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Red scene" ID="163" Icon="">
+      <WindowState Visible="False" X="10" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294901760</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="184"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Green scene" ID="164" Icon="">
+      <WindowState Visible="False" X="70" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278255360</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="185"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Blue scene" ID="165" Icon="">
+      <WindowState Visible="False" X="130" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190335</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="186"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="White scene" ID="166" Icon="">
+      <WindowState Visible="False" X="190" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294967295</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="187"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+    <CueList Caption="Primary colours chaser" ID="167">
+     <WindowState Visible="False" X="270" Y="40" Width="300" Height="220"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>188</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback/>
+     <Stop/>
+    </CueList>
+    <Slider Caption="Click &amp; Go RGB" ID="168" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="580" Y="40" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="0">1</Channel>
+      <Channel Fixture="1">1</Channel>
+      <Channel Fixture="2">1</Channel>
+      <Channel Fixture="3">1</Channel>
+      <Channel Fixture="4">1</Channel>
+      <Channel Fixture="5">1</Channel>
+      <Channel Fixture="6">1</Channel>
+      <Channel Fixture="7">1</Channel>
+      <Channel Fixture="8">1</Channel>
+      <Channel Fixture="9">1</Channel>
+      <Channel Fixture="10">1</Channel>
+      <Channel Fixture="11">1</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame Caption="16 Colours - PAR StageLight 12Wx7 LED" ID="169">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="670" Y="10" Width="650" Height="330"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <SoloFrame Caption="Presets solo frame" ID="170">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="False" X="10" Y="40" Width="250" Height="280"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Scene Black" ID="171" Icon="">
+      <WindowState Visible="False" X="10" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="189"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Scene Dark Blue" ID="172" Icon="">
+      <WindowState Visible="False" X="70" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190208</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="190"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Scene Blue" ID="173" Icon="">
+      <WindowState Visible="False" X="130" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278190335</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="191"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Scene Dark Green" ID="174" Icon="">
+      <WindowState Visible="False" X="190" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278222848</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="192"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Scene Dark Cyan" ID="175" Icon="">
+      <WindowState Visible="False" X="10" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278222976</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="193"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Scene Green" ID="176" Icon="">
+      <WindowState Visible="False" X="70" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278255360</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="194"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Scene Cyan" ID="177" Icon="">
+      <WindowState Visible="False" X="130" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278255615</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="195"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Scene Dark Red" ID="178" Icon="">
+      <WindowState Visible="False" X="190" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4286578688</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="196"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Scene Dark Magenta" ID="179" Icon="">
+      <WindowState Visible="False" X="10" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4286578816</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="197"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Scene Dark Yellow" ID="180" Icon="">
+      <WindowState Visible="False" X="70" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4286611456</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="198"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Scene Dark Gray" ID="181" Icon="">
+      <WindowState Visible="False" X="130" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4286611584</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="199"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Scene Light Gray" ID="182" Icon="">
+      <WindowState Visible="False" X="190" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4290822336</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="200"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Scene Red" ID="183" Icon="">
+      <WindowState Visible="False" X="10" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294901760</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="201"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Scene Magenta" ID="184" Icon="">
+      <WindowState Visible="False" X="70" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294902015</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="202"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Scene Yellow" ID="185" Icon="">
+      <WindowState Visible="False" X="130" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294967040</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="203"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Scene White" ID="186" Icon="">
+      <WindowState Visible="False" X="190" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294967295</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="204"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+    <CueList Caption="16 Colours chaser" ID="187">
+     <WindowState Visible="False" X="270" Y="40" Width="300" Height="220"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>205</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback/>
+     <Stop/>
+    </CueList>
+    <Slider Caption="Click &amp; Go RGB" ID="188" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="580" Y="40" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="0">1</Channel>
+      <Channel Fixture="0">2</Channel>
+      <Channel Fixture="0">3</Channel>
+      <Channel Fixture="1">1</Channel>
+      <Channel Fixture="1">2</Channel>
+      <Channel Fixture="1">3</Channel>
+      <Channel Fixture="2">1</Channel>
+      <Channel Fixture="2">2</Channel>
+      <Channel Fixture="2">3</Channel>
+      <Channel Fixture="3">1</Channel>
+      <Channel Fixture="3">2</Channel>
+      <Channel Fixture="3">3</Channel>
+      <Channel Fixture="4">1</Channel>
+      <Channel Fixture="4">2</Channel>
+      <Channel Fixture="4">3</Channel>
+      <Channel Fixture="5">1</Channel>
+      <Channel Fixture="5">2</Channel>
+      <Channel Fixture="5">3</Channel>
+      <Channel Fixture="6">1</Channel>
+      <Channel Fixture="6">2</Channel>
+      <Channel Fixture="6">3</Channel>
+      <Channel Fixture="7">1</Channel>
+      <Channel Fixture="7">2</Channel>
+      <Channel Fixture="7">3</Channel>
+      <Channel Fixture="8">1</Channel>
+      <Channel Fixture="8">2</Channel>
+      <Channel Fixture="8">3</Channel>
+      <Channel Fixture="9">1</Channel>
+      <Channel Fixture="9">2</Channel>
+      <Channel Fixture="9">3</Channel>
+      <Channel Fixture="10">1</Channel>
+      <Channel Fixture="10">2</Channel>
+      <Channel Fixture="10">3</Channel>
+      <Channel Fixture="11">1</Channel>
+      <Channel Fixture="11">2</Channel>
+      <Channel Fixture="11">3</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
