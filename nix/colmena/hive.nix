@@ -25,19 +25,19 @@
     openttd = { config, pkgs,... }:{ imports = [ ./roles/games/openttd.nix ]; };
   in
   {
-    blade02 = { imports = [blade02 k8sNode ]; }; # hold for lancache
-    blade03 = { imports = [blade03 k8sNode ]; }; 
-    blade04 = { imports = [blade04 k8sNode ]; }; 
-    blade05 = { imports = [blade05 k8sNode qlcp ]; }; # lights controller
-    blade06 = { imports = [blade06 podman pixelnuke ]; }; # pixelflut
-    blade09 = { imports = [blade09 k8sNode ]; }; 
-    blade10 = { imports = [blade10 k8sNode ]; };
-    blade11 = { imports = [blade11 k8sNode ]; };
-    blade12 = { imports = [blade12 steamcmd ]; };  # project zomboid
-    blade13 = { imports = [blade13 podman steamcmd ]; }; # cs2
-    blade14 = { imports = [blade14 openttd ]; }; # openttd
-    blade15 = { imports = [blade15 steamcmd ]; }; # satisfactory
-    blade16 = { imports = [blade16 k8sMaster ]; }; # hold for k8s master
+    blade02 = { imports = [ blade02 k8sNode ]; }; # hold for lancache
+    blade03 = { imports = [ blade03 ]; }; 
+    blade04 = { imports = [ blade04 ]; }; 
+    blade05 = { imports = [ blade05 k8sNode qlcp ]; }; # lights controller
+    blade06 = { imports = [ blade06 podman pixelnuke ]; }; # pixelflut
+    blade09 = { imports = [ blade09 steamcmd ]; }; # spare
+    blade10 = { imports = [ blade10 steamcmd ]; }; # spare
+    blade11 = { imports = [ blade11 steamcmd ]; }; # spare
+    blade12 = { imports = [ blade12 steamcmd ]; };  # project zomboid
+    blade13 = { imports = [ blade13 podman steamcmd ]; }; # cs2
+    blade14 = { imports = [ blade14 openttd ]; }; # openttd
+    blade15 = { imports = [ blade15 steamcmd ]; }; # satisfactory
+    blade16 = { imports = [ blade16 k8sMaster ]; }; # hold for k8s master
 
     meta = {
       name = "magfest lan";
@@ -45,7 +45,7 @@
         name = "nixos-23.11-2023-12-18";
         url = "https://github.com/NixOS/nixpkgs";
         ref = "refs/heads/nixos-23.11";
-        rev = "b0b2c5445c64191fd8d0b31f2b1a34e45a64547d";
+        rev = "c1be43e8e837b8dbee2b3665a007e761680f0c3d";
       }) {};
     };
   }
