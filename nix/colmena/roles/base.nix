@@ -5,6 +5,8 @@ let
     "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDBgvmfr23k7jjiQNfd2WfWYf0wzl1swTwIzIrcRUqmI greg"
     "sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAILrypPc78fSwWaB8+QRxqIAnYNssrobyObPSOZ9TYNb0AAAABHNzaDo= waffles-green@w4f7z.net"
     "sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAIAy6VHgLr3lBvY7Utp9m4A/7a5CPn6VSUb3nYW0SzKS5AAAABHNzaDo= waffles-blue@w4f7z.net"
+    "no-touch-required sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAIEhV9iGnKlWm4szrU+psQDaZS0PdK4vyX2jgQ7JAWWccAAAABHNzaDo= waffles-blue-no-touch@w4f7z.net"
+    "no-touch-required sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAIGAG7lLfpLtDzrtnAzQp6XJsyM0skPnKma8TOA5NAgHHAAAABHNzaDo= waffles-blue-no-touch@w4f7z.net"
   ];
 in
 {
@@ -75,14 +77,14 @@ in
   boot.kernelParams = [ "ipv6.disable=1" ];
   boot.kernel.sysctl."net.ipv6.conf.all.disable_ipv6" = true;
 
-    # Enable BBR congestion control
+  # Enable BBR congestion control
   boot.kernelModules = [ "tcp_bbr" ];
   boot.kernel.sysctl."net.ipv4.tcp_congestion_control" = "bbr";
   boot.kernel.sysctl."net.core.default_qdisc" = "fq"; # see https://news.ycombinator.com/item?id=14814530
 
   networking.search = 
   [
-      "lan.magfest.net"
-      "mgt.lan.magfest.net"
+    "lan.magfest.net"
+    "mgt.lan.magfest.net"
   ];
 }
