@@ -32,7 +32,7 @@
     blade06 = { imports = [ blade06 podman pixelnuke ]; }; # pixelflut
     blade09 = { imports = [ blade09 steamcmd ]; }; # spare
     blade10 = { imports = [ blade10 steamcmd ]; }; # spare
-    blade11 = { imports = [ blade11 steamcmd ]; }; # spare
+    # blade11 = { imports = [ blade11 steamcmd ]; }; # windows
     blade12 = { imports = [ blade12 steamcmd ]; };  # project zomboid
     blade13 = { imports = [ blade13 podman steamcmd ]; }; # cs2
     blade14 = { imports = [ blade14 openttd ]; }; # openttd
