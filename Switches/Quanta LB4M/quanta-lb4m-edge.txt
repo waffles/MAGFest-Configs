@@ -61,6 +61,12 @@ port-security max-dynamic 5
 port-security max-static 5
 exit
 
+interface 0/48
+lldp transmit
+lldp receive
+lldp transmit-mgmt
+exit
+
 interface 0/49-0/50
 vlan participation exclude 1
 vlan participation include 100,200
